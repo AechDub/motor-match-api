@@ -27,6 +27,3 @@ npm run watchb
 npm run watchn
 ```
 
-## Admin
-
-Go to `/admin`
