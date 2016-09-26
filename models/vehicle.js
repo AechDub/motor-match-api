@@ -10,26 +10,13 @@ var schemaOptions = {
 }
 
 var vehicleSchema = new mongoose.Schema({
-  vehicle_type: {
-    type: String
-  },
-  vehicle_make: {
-    type: String
-  },
-  vehicle_model: {
-    type: String
-  },
-  mpg: {
-    type: Number,
-    default: 0
-  },
-  vin: {
-    type: String
-  },
-  price: {
-    type: Number,
-    default: 0
-  },
+  type: String,
+  make: String,
+  model: String,
+  mpg: Number,
+  vin: String,
+  model_year: Number,
+  price: Number,
   created: {
     type : Date,
     default : Date.now
