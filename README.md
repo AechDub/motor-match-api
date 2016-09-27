@@ -20,15 +20,3 @@ npm run stop
 npm run watch
 ```
 
-## Development with zero vehicles
-
-```
-npm run watchb
-```
-
-## Development with nullified values
-
-```
-npm run watchn
-```
-
